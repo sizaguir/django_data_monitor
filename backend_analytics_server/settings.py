@@ -122,4 +122,4 @@ STATICFILES_DIRS = [
 ]
 
 # URL de la API externa (JSONPlaceholder para pruebas)
-API_URL = 'https://jsonplaceholder.typicode.com/posts'
+API_URL = 'https://data-dawm.github.io/datum/reseller/products.json'
