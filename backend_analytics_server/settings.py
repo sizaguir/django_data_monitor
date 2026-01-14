@@ -120,3 +120,6 @@ STATIC_URL = 'static/'
 STATICFILES_DIRS = [
     BASE_DIR / 'static',
 ]
+
+# URL de la API externa (JSONPlaceholder para pruebas)
+API_URL = 'https://jsonplaceholder.typicode.com/posts'

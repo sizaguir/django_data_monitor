@@ -1,5 +1,6 @@
-from django.shortcuts import render
+from django.urls import path
+from . import views
 
-def home(request):
-    # Renderizamos la plantilla que ubicaste en la carpeta dashboard
-    return render(request, 'dashboard/base.html')
+urlpatterns = [
+    path('', views.index, name='index'),
+]
